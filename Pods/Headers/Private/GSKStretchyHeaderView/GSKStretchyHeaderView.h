@@ -1,0 +1,1 @@
+../../../GSKStretchyHeaderView/Pod/Classes/GSKStretchyHeaderView.h

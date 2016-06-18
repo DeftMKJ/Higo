@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCCD711AD14E2A3EFEB8E3F /* libPods-Higo专题页面.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33324D2593D813823997A23C /* libPods-Higo专题页面.a */; };
+		6912A6F91D144838005F93BB /* UINavigationController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6912A6F81D144838005F93BB /* UINavigationController+StatusBarStyle.m */; };
+		69431A721D12C8970065B8E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431A711D12C8970065B8E1 /* main.m */; };
+		69431A751D12C8970065B8E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431A741D12C8970065B8E1 /* AppDelegate.m */; };
+		69431A781D12C8970065B8E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431A771D12C8970065B8E1 /* ViewController.m */; };
+		69431A7B1D12C8970065B8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69431A791D12C8970065B8E1 /* Main.storyboard */; };
+		69431A7D1D12C8970065B8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69431A7C1D12C8970065B8E1 /* Assets.xcassets */; };
+		69431A801D12C8970065B8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69431A7E1D12C8970065B8E1 /* LaunchScreen.storyboard */; };
+		69431A8B1D12C8970065B8E1 /* Higo____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431A8A1D12C8970065B8E1 /* Higo____Tests.m */; };
+		69431A961D12C8970065B8E1 /* Higo____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431A951D12C8970065B8E1 /* Higo____UITests.m */; };
+		69431AAC1D12C8A90065B8E1 /* CountrySessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69431AA31D12C8A90065B8E1 /* CountrySessionViewController.xib */; };
+		69431AAD1D12C8A90065B8E1 /* CountrySessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431AA51D12C8A90065B8E1 /* CountrySessionViewController.m */; };
+		69431AAE1D12C8A90065B8E1 /* ContryProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69431AA71D12C8A90065B8E1 /* ContryProductCollectionViewCell.xib */; };
+		69431AAF1D12C8A90065B8E1 /* ContryProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431AA81D12C8A90065B8E1 /* ContryProductCollectionViewCell.m */; };
+		69431AB01D12C8A90065B8E1 /* GSKNibStretchyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69431AA91D12C8A90065B8E1 /* GSKNibStretchyHeaderView.xib */; };
+		69431AB11D12C8A90065B8E1 /* GSKNibStretchyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431AAA1D12C8A90065B8E1 /* GSKNibStretchyHeaderView.m */; };
+		69431AB71D12CB220065B8E1 /* NSString+CP.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431AB31D12CB220065B8E1 /* NSString+CP.m */; };
+		69431AB81D12CB220065B8E1 /* NSArray+CP.m in Sources */ = {isa = PBXBuildFile; fileRef = 69431AB61D12CB220065B8E1 /* NSArray+CP.m */; };
+		696C7FFF1D13A1AB00220918 /* MKJAFNetWorkHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C7FFE1D13A1AB00220918 /* MKJAFNetWorkHelp.m */; };
+		696C80011D13D30500220918 /* Higo.json in Resources */ = {isa = PBXBuildFile; fileRef = 696C80001D13D30500220918 /* Higo.json */; };
+		696C800B1D13D3AD00220918 /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696C80031D13D3AD00220918 /* backItemImage@2x.png */; };
+		696C800C1D13D3AD00220918 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 696C80041D13D3AD00220918 /* Contents.json */; };
+		696C800D1D13D3AD00220918 /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696C80061D13D3AD00220918 /* backItemImage_hl@2x.png */; };
+		696C800E1D13D3AD00220918 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 696C80071D13D3AD00220918 /* Contents.json */; };
+		696C800F1D13D3AD00220918 /* backItemImageWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696C80091D13D3AD00220918 /* backItemImageWhite@2x.png */; };
+		696C80101D13D3AD00220918 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 696C800A1D13D3AD00220918 /* Contents.json */; };
+		696C80131D13D5F000220918 /* HigoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C80121D13D5F000220918 /* HigoModel.m */; };
+		696C80181D13EEAA00220918 /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696C80161D13EEAA00220918 /* FirstCollectionViewCell.xib */; };
+		696C801C1D13FC1600220918 /* HeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C801A1D13FC1600220918 /* HeadCollectionReusableView.m */; };
+		696C801D1D13FC1600220918 /* HeadCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696C801B1D13FC1600220918 /* HeadCollectionReusableView.xib */; };
+		696C80221D13FDD300220918 /* SecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696C80201D13FDD300220918 /* SecondCollectionViewCell.xib */; };
+		696C80241D14136C00220918 /* vatersay-1213433-1400x933.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 696C80231D14136C00220918 /* vatersay-1213433-1400x933.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69431A871D12C8970065B8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69431A651D12C8970065B8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69431A6C1D12C8970065B8E1;
+			remoteInfo = "Higo专题页面";
+		};
+		69431A921D12C8970065B8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69431A651D12C8970065B8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69431A6C1D12C8970065B8E1;
+			remoteInfo = "Higo专题页面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33324D2593D813823997A23C /* libPods-Higo专题页面.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Higo专题页面.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6912A6F71D144838005F93BB /* UINavigationController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBarStyle.h"; sourceTree = "<group>"; };
+		6912A6F81D144838005F93BB /* UINavigationController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBarStyle.m"; sourceTree = "<group>"; };
+		69431A6D1D12C8970065B8E1 /* Higo专题页面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Higo专题页面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69431A711D12C8970065B8E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69431A731D12C8970065B8E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69431A741D12C8970065B8E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69431A761D12C8970065B8E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69431A771D12C8970065B8E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69431A7A1D12C8970065B8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69431A7C1D12C8970065B8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69431A7F1D12C8970065B8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69431A811D12C8970065B8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69431A861D12C8970065B8E1 /* Higo专题页面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Higo专题页面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69431A8A1D12C8970065B8E1 /* Higo____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Higo____Tests.m"; sourceTree = "<group>"; };
+		69431A8C1D12C8970065B8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69431A911D12C8970065B8E1 /* Higo专题页面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Higo专题页面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69431A951D12C8970065B8E1 /* Higo____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Higo____UITests.m"; sourceTree = "<group>"; };
+		69431A971D12C8970065B8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69431AA31D12C8A90065B8E1 /* CountrySessionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountrySessionViewController.xib; sourceTree = "<group>"; };
+		69431AA41D12C8A90065B8E1 /* ContryProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContryProductCollectionViewCell.h; sourceTree = "<group>"; };
+		69431AA51D12C8A90065B8E1 /* CountrySessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountrySessionViewController.m; sourceTree = "<group>"; };
+		69431AA61D12C8A90065B8E1 /* CountrySessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountrySessionViewController.h; sourceTree = "<group>"; };
+		69431AA71D12C8A90065B8E1 /* ContryProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContryProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		69431AA81D12C8A90065B8E1 /* ContryProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContryProductCollectionViewCell.m; sourceTree = "<group>"; };
+		69431AA91D12C8A90065B8E1 /* GSKNibStretchyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSKNibStretchyHeaderView.xib; sourceTree = "<group>"; };
+		69431AAA1D12C8A90065B8E1 /* GSKNibStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSKNibStretchyHeaderView.m; sourceTree = "<group>"; };
+		69431AAB1D12C8A90065B8E1 /* GSKNibStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSKNibStretchyHeaderView.h; sourceTree = "<group>"; };
+		69431AB31D12CB220065B8E1 /* NSString+CP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CP.m"; sourceTree = "<group>"; };
+		69431AB41D12CB220065B8E1 /* NSArray+CP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CP.h"; sourceTree = "<group>"; };
+		69431AB51D12CB220065B8E1 /* NSString+CP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CP.h"; sourceTree = "<group>"; };
+		69431AB61D12CB220065B8E1 /* NSArray+CP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CP.m"; sourceTree = "<group>"; };
+		696C7FFD1D13A1AB00220918 /* MKJAFNetWorkHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJAFNetWorkHelp.h; sourceTree = "<group>"; };
+		696C7FFE1D13A1AB00220918 /* MKJAFNetWorkHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJAFNetWorkHelp.m; sourceTree = "<group>"; };
+		696C80001D13D30500220918 /* Higo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Higo.json; sourceTree = "<group>"; };
+		696C80031D13D3AD00220918 /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
+		696C80041D13D3AD00220918 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		696C80061D13D3AD00220918 /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
+		696C80071D13D3AD00220918 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		696C80091D13D3AD00220918 /* backItemImageWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImageWhite@2x.png"; sourceTree = "<group>"; };
+		696C800A1D13D3AD00220918 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		696C80111D13D5F000220918 /* HigoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HigoModel.h; sourceTree = "<group>"; };
+		696C80121D13D5F000220918 /* HigoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HigoModel.m; sourceTree = "<group>"; };
+		696C80161D13EEAA00220918 /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		696C80191D13FC1600220918 /* HeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadCollectionReusableView.h; sourceTree = "<group>"; };
+		696C801A1D13FC1600220918 /* HeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadCollectionReusableView.m; sourceTree = "<group>"; };
+		696C801B1D13FC1600220918 /* HeadCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadCollectionReusableView.xib; sourceTree = "<group>"; };
+		696C80201D13FDD300220918 /* SecondCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		696C80231D14136C00220918 /* vatersay-1213433-1400x933.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vatersay-1213433-1400x933.jpg"; sourceTree = "<group>"; };
+		7196AF127C9EEBB4A21C116D /* Pods-Higo专题页面.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Higo专题页面.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Higo专题页面/Pods-Higo专题页面.debug.xcconfig"; sourceTree = "<group>"; };
+		8156B988FD82158136F1F40C /* Pods-Higo专题页面.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Higo专题页面.release.xcconfig"; path = "Pods/Target Support Files/Pods-Higo专题页面/Pods-Higo专题页面.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69431A6A1D12C8970065B8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCD711AD14E2A3EFEB8E3F /* libPods-Higo专题页面.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69431A831D12C8970065B8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69431A8E1D12C8970065B8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E8884AF8F920B9FA05D82B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33324D2593D813823997A23C /* libPods-Higo专题页面.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69431A641D12C8970065B8E1 = {
+			isa = PBXGroup;
+			children = (
+				69431A6F1D12C8970065B8E1 /* Higo专题页面 */,
+				69431A891D12C8970065B8E1 /* Higo专题页面Tests */,
+				69431A941D12C8970065B8E1 /* Higo专题页面UITests */,
+				69431A6E1D12C8970065B8E1 /* Products */,
+				7B0F0374011F45583DA0E346 /* Pods */,
+				15E8884AF8F920B9FA05D82B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69431A6E1D12C8970065B8E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69431A6D1D12C8970065B8E1 /* Higo专题页面.app */,
+				69431A861D12C8970065B8E1 /* Higo专题页面Tests.xctest */,
+				69431A911D12C8970065B8E1 /* Higo专题页面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69431A6F1D12C8970065B8E1 /* Higo专题页面 */ = {
+			isa = PBXGroup;
+			children = (
+				69431AB21D12CB170065B8E1 /* tool */,
+				696C7FFC1D13A10E00220918 /* C */,
+				696C7FFB1D13A10400220918 /* V */,
+				696C7FFA1D13A0F300220918 /* M */,
+				69431A731D12C8970065B8E1 /* AppDelegate.h */,
+				69431A741D12C8970065B8E1 /* AppDelegate.m */,
+				69431A761D12C8970065B8E1 /* ViewController.h */,
+				69431A771D12C8970065B8E1 /* ViewController.m */,
+				69431A791D12C8970065B8E1 /* Main.storyboard */,
+				69431A7C1D12C8970065B8E1 /* Assets.xcassets */,
+				69431A7E1D12C8970065B8E1 /* LaunchScreen.storyboard */,
+				69431A811D12C8970065B8E1 /* Info.plist */,
+				69431A701D12C8970065B8E1 /* Supporting Files */,
+			);
+			path = "Higo专题页面";
+			sourceTree = "<group>";
+		};
+		69431A701D12C8970065B8E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69431A711D12C8970065B8E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69431A891D12C8970065B8E1 /* Higo专题页面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				69431A8A1D12C8970065B8E1 /* Higo____Tests.m */,
+				69431A8C1D12C8970065B8E1 /* Info.plist */,
+			);
+			path = "Higo专题页面Tests";
+			sourceTree = "<group>";
+		};
+		69431A941D12C8970065B8E1 /* Higo专题页面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				69431A951D12C8970065B8E1 /* Higo____UITests.m */,
+				69431A971D12C8970065B8E1 /* Info.plist */,
+			);
+			path = "Higo专题页面UITests";
+			sourceTree = "<group>";
+		};
+		69431AB21D12CB170065B8E1 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				696C80231D14136C00220918 /* vatersay-1213433-1400x933.jpg */,
+				696C80021D13D3AD00220918 /* backItemImage.imageset */,
+				696C80051D13D3AD00220918 /* backItemImage_hl.imageset */,
+				696C80081D13D3AD00220918 /* backItemImageWhite.imageset */,
+				69431AB31D12CB220065B8E1 /* NSString+CP.m */,
+				69431AB41D12CB220065B8E1 /* NSArray+CP.h */,
+				69431AB51D12CB220065B8E1 /* NSString+CP.h */,
+				69431AB61D12CB220065B8E1 /* NSArray+CP.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		696C7FFA1D13A0F300220918 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				696C80001D13D30500220918 /* Higo.json */,
+				696C7FFD1D13A1AB00220918 /* MKJAFNetWorkHelp.h */,
+				696C7FFE1D13A1AB00220918 /* MKJAFNetWorkHelp.m */,
+				696C80111D13D5F000220918 /* HigoModel.h */,
+				696C80121D13D5F000220918 /* HigoModel.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		696C7FFB1D13A10400220918 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				69431AA41D12C8A90065B8E1 /* ContryProductCollectionViewCell.h */,
+				69431AA81D12C8A90065B8E1 /* ContryProductCollectionViewCell.m */,
+				69431AA71D12C8A90065B8E1 /* ContryProductCollectionViewCell.xib */,
+				696C80161D13EEAA00220918 /* FirstCollectionViewCell.xib */,
+				696C80201D13FDD300220918 /* SecondCollectionViewCell.xib */,
+				696C80191D13FC1600220918 /* HeadCollectionReusableView.h */,
+				696C801A1D13FC1600220918 /* HeadCollectionReusableView.m */,
+				696C801B1D13FC1600220918 /* HeadCollectionReusableView.xib */,
+				69431AAB1D12C8A90065B8E1 /* GSKNibStretchyHeaderView.h */,
+				69431AAA1D12C8A90065B8E1 /* GSKNibStretchyHeaderView.m */,
+				69431AA91D12C8A90065B8E1 /* GSKNibStretchyHeaderView.xib */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		696C7FFC1D13A10E00220918 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				69431AA61D12C8A90065B8E1 /* CountrySessionViewController.h */,
+				69431AA51D12C8A90065B8E1 /* CountrySessionViewController.m */,
+				69431AA31D12C8A90065B8E1 /* CountrySessionViewController.xib */,
+				6912A6F71D144838005F93BB /* UINavigationController+StatusBarStyle.h */,
+				6912A6F81D144838005F93BB /* UINavigationController+StatusBarStyle.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		696C80021D13D3AD00220918 /* backItemImage.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				696C80031D13D3AD00220918 /* backItemImage@2x.png */,
+				696C80041D13D3AD00220918 /* Contents.json */,
+			);
+			path = backItemImage.imageset;
+			sourceTree = "<group>";
+		};
+		696C80051D13D3AD00220918 /* backItemImage_hl.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				696C80061D13D3AD00220918 /* backItemImage_hl@2x.png */,
+				696C80071D13D3AD00220918 /* Contents.json */,
+			);
+			path = backItemImage_hl.imageset;
+			sourceTree = "<group>";
+		};
+		696C80081D13D3AD00220918 /* backItemImageWhite.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				696C80091D13D3AD00220918 /* backItemImageWhite@2x.png */,
+				696C800A1D13D3AD00220918 /* Contents.json */,
+			);
+			path = backItemImageWhite.imageset;
+			sourceTree = "<group>";
+		};
+		7B0F0374011F45583DA0E346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7196AF127C9EEBB4A21C116D /* Pods-Higo专题页面.debug.xcconfig */,
+				8156B988FD82158136F1F40C /* Pods-Higo专题页面.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69431A6C1D12C8970065B8E1 /* Higo专题页面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69431A9A1D12C8970065B8E1 /* Build configuration list for PBXNativeTarget "Higo专题页面" */;
+			buildPhases = (
+				BAC3CC1D8093DCA85BF888B7 /* 📦 Check Pods Manifest.lock */,
+				69431A691D12C8970065B8E1 /* Sources */,
+				69431A6A1D12C8970065B8E1 /* Frameworks */,
+				69431A6B1D12C8970065B8E1 /* Resources */,
+				D1B96D96DD518AE6295A766E /* 📦 Embed Pods Frameworks */,
+				CE84703AF194290A346B0BB0 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Higo专题页面";
+			productName = "Higo专题页面";
+			productReference = 69431A6D1D12C8970065B8E1 /* Higo专题页面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69431A851D12C8970065B8E1 /* Higo专题页面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69431A9D1D12C8970065B8E1 /* Build configuration list for PBXNativeTarget "Higo专题页面Tests" */;
+			buildPhases = (
+				69431A821D12C8970065B8E1 /* Sources */,
+				69431A831D12C8970065B8E1 /* Frameworks */,
+				69431A841D12C8970065B8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69431A881D12C8970065B8E1 /* PBXTargetDependency */,
+			);
+			name = "Higo专题页面Tests";
+			productName = "Higo专题页面Tests";
+			productReference = 69431A861D12C8970065B8E1 /* Higo专题页面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69431A901D12C8970065B8E1 /* Higo专题页面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69431AA01D12C8970065B8E1 /* Build configuration list for PBXNativeTarget "Higo专题页面UITests" */;
+			buildPhases = (
+				69431A8D1D12C8970065B8E1 /* Sources */,
+				69431A8E1D12C8970065B8E1 /* Frameworks */,
+				69431A8F1D12C8970065B8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69431A931D12C8970065B8E1 /* PBXTargetDependency */,
+			);
+			name = "Higo专题页面UITests";
+			productName = "Higo专题页面UITests";
+			productReference = 69431A911D12C8970065B8E1 /* Higo专题页面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69431A651D12C8970065B8E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "宓珂璟";
+				TargetAttributes = {
+					69431A6C1D12C8970065B8E1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					69431A851D12C8970065B8E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69431A6C1D12C8970065B8E1;
+					};
+					69431A901D12C8970065B8E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69431A6C1D12C8970065B8E1;
+					};
+				};
+			};
+			buildConfigurationList = 69431A681D12C8970065B8E1 /* Build configuration list for PBXProject "Higo专题页面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69431A641D12C8970065B8E1;
+			productRefGroup = 69431A6E1D12C8970065B8E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69431A6C1D12C8970065B8E1 /* Higo专题页面 */,
+				69431A851D12C8970065B8E1 /* Higo专题页面Tests */,
+				69431A901D12C8970065B8E1 /* Higo专题页面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69431A6B1D12C8970065B8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C80221D13FDD300220918 /* SecondCollectionViewCell.xib in Resources */,
+				69431AAC1D12C8A90065B8E1 /* CountrySessionViewController.xib in Resources */,
+				69431AB01D12C8A90065B8E1 /* GSKNibStretchyHeaderView.xib in Resources */,
+				696C800F1D13D3AD00220918 /* backItemImageWhite@2x.png in Resources */,
+				696C80181D13EEAA00220918 /* FirstCollectionViewCell.xib in Resources */,
+				696C800C1D13D3AD00220918 /* Contents.json in Resources */,
+				69431A801D12C8970065B8E1 /* LaunchScreen.storyboard in Resources */,
+				69431AAE1D12C8A90065B8E1 /* ContryProductCollectionViewCell.xib in Resources */,
+				696C800B1D13D3AD00220918 /* backItemImage@2x.png in Resources */,
+				696C80101D13D3AD00220918 /* Contents.json in Resources */,
+				696C800D1D13D3AD00220918 /* backItemImage_hl@2x.png in Resources */,
+				69431A7D1D12C8970065B8E1 /* Assets.xcassets in Resources */,
+				69431A7B1D12C8970065B8E1 /* Main.storyboard in Resources */,
+				696C800E1D13D3AD00220918 /* Contents.json in Resources */,
+				696C80241D14136C00220918 /* vatersay-1213433-1400x933.jpg in Resources */,
+				696C801D1D13FC1600220918 /* HeadCollectionReusableView.xib in Resources */,
+				696C80011D13D30500220918 /* Higo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69431A841D12C8970065B8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69431A8F1D12C8970065B8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAC3CC1D8093DCA85BF888B7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE84703AF194290A346B0BB0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Higo专题页面/Pods-Higo专题页面-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B96D96DD518AE6295A766E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Higo专题页面/Pods-Higo专题页面-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69431A691D12C8970065B8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69431AAD1D12C8A90065B8E1 /* CountrySessionViewController.m in Sources */,
+				69431AB11D12C8A90065B8E1 /* GSKNibStretchyHeaderView.m in Sources */,
+				696C7FFF1D13A1AB00220918 /* MKJAFNetWorkHelp.m in Sources */,
+				69431A781D12C8970065B8E1 /* ViewController.m in Sources */,
+				69431AB71D12CB220065B8E1 /* NSString+CP.m in Sources */,
+				69431A751D12C8970065B8E1 /* AppDelegate.m in Sources */,
+				69431AB81D12CB220065B8E1 /* NSArray+CP.m in Sources */,
+				69431AAF1D12C8A90065B8E1 /* ContryProductCollectionViewCell.m in Sources */,
+				696C80131D13D5F000220918 /* HigoModel.m in Sources */,
+				6912A6F91D144838005F93BB /* UINavigationController+StatusBarStyle.m in Sources */,
+				696C801C1D13FC1600220918 /* HeadCollectionReusableView.m in Sources */,
+				69431A721D12C8970065B8E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69431A821D12C8970065B8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69431A8B1D12C8970065B8E1 /* Higo____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69431A8D1D12C8970065B8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69431A961D12C8970065B8E1 /* Higo____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69431A881D12C8970065B8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69431A6C1D12C8970065B8E1 /* Higo专题页面 */;
+			targetProxy = 69431A871D12C8970065B8E1 /* PBXContainerItemProxy */;
+		};
+		69431A931D12C8970065B8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69431A6C1D12C8970065B8E1 /* Higo专题页面 */;
+			targetProxy = 69431A921D12C8970065B8E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69431A791D12C8970065B8E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69431A7A1D12C8970065B8E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69431A7E1D12C8970065B8E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69431A7F1D12C8970065B8E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69431A981D12C8970065B8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69431A991D12C8970065B8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69431A9B1D12C8970065B8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7196AF127C9EEBB4A21C116D /* Pods-Higo专题页面.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Higo专题页面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.Higo----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69431A9C1D12C8970065B8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8156B988FD82158136F1F40C /* Pods-Higo专题页面.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Higo专题页面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.Higo----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69431A9E1D12C8970065B8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Higo专题页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.Higo----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Higo专题页面.app/Higo专题页面";
+			};
+			name = Debug;
+		};
+		69431A9F1D12C8970065B8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Higo专题页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.Higo----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Higo专题页面.app/Higo专题页面";
+			};
+			name = Release;
+		};
+		69431AA11D12C8970065B8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Higo专题页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.Higo----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Higo专题页面";
+			};
+			name = Debug;
+		};
+		69431AA21D12C8970065B8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Higo专题页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.Higo----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Higo专题页面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69431A681D12C8970065B8E1 /* Build configuration list for PBXProject "Higo专题页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69431A981D12C8970065B8E1 /* Debug */,
+				69431A991D12C8970065B8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69431A9A1D12C8970065B8E1 /* Build configuration list for PBXNativeTarget "Higo专题页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69431A9B1D12C8970065B8E1 /* Debug */,
+				69431A9C1D12C8970065B8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69431A9D1D12C8970065B8E1 /* Build configuration list for PBXNativeTarget "Higo专题页面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69431A9E1D12C8970065B8E1 /* Debug */,
+				69431A9F1D12C8970065B8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69431AA01D12C8970065B8E1 /* Build configuration list for PBXNativeTarget "Higo专题页面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69431AA11D12C8970065B8E1 /* Debug */,
+				69431AA21D12C8970065B8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69431A651D12C8970065B8E1 /* Project object */;
+}

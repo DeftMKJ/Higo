@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CHTCollectionViewWaterfallLayout (0.9.4):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.4)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.4)
+  - DZNEmptyDataSet (1.8.1)
+  - GSKStretchyHeaderView (0.10.2):
+    - KVOController (~> 1.1)
+  - JZNavigationExtension (1.4.8)
+  - KVOController (1.1.0)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.4)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CHTCollectionViewWaterfallLayout
+  - DZNEmptyDataSet
+  - GSKStretchyHeaderView
+  - JZNavigationExtension
+  - MJExtension
+  - MJRefresh
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CHTCollectionViewWaterfallLayout: db74be9135826d285f45ff163fd090e57c99fc50
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  GSKStretchyHeaderView: 04aaed476b0422ba3bb4e9526dc0b03300370175
+  JZNavigationExtension: 7b5a80e01677e949db420cfb887e40a89abe5954
+  KVOController: 321b5fc59300fcaabd42c0f679baa7a27efbb2fd
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 4490b0b8ae6e14621016c61a0efc7eef132b3186
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 2c670f3c5850de6cf2ec0c5edf4f1364752bfe1e
+
+COCOAPODS: 1.0.0
